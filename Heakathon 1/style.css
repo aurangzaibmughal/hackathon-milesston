@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 100px;
+}
+.resume-container {
+    display:flex;
+    background-color:white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(24, 2, 103, 0.1);
+}
+.left-section {
+    background-color: rgb(63, 58, 226);
+    color:white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(11, 11, 220);
+}
+
+.profile-picture {
+   width: 150px;
+   height: 150px;
+   margin-top: 20%;
+   border-radius: 50%;
+   border: 5px solid rgb(17, 17, 212);
+   margin-bottom: 20px; 
+}
+
+h1 {
+    font-size: 35px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10%;
+    box-shadow: 0 0 15px rgb(11, 11, 194); 
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px  0;
+}
+ul li {
+   margin: 5px; 
+}
+.right-section {
+    padding: 20px;
+    width: 70%;
+}
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(49, 7, 116);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(72, 72, 227);
+    
+}
